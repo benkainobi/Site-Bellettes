@@ -1,0 +1,233 @@
+    body {
+        padding: 0;
+        margin: 0;
+        background-color: blue;
+    }
+    
+    .garde {
+        height: 90vh;
+        background-image: url("/Users/ben/Desktop/Site-Bellettes/photos/Photo_un_site.jpeg");
+        background-size: cover;
+        text-align: center;
+        color: white;
+        font-size: 40px;
+        font-family: 'Lobster', cursive;
+        line-height: 300px;
+    }
+    
+    @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+    .navbar {
+        height: 10vh;
+        background-color: black;
+        color: white;
+        display: flex;
+    }
+    
+    ul {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    li {
+        width: 100px;
+        height: 10vh;
+        line-height: 10vh;
+        border: 2px solid white;
+        text-align: center;
+        line-height: 10vh;
+    }
+    
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    li:hover {
+        background-color: red;
+    }
+    
+    #agenda {
+        height: 100vh;
+        background-color: green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .logo {
+        background-image: url("/Users/ben/Desktop/Site-Bellettes/photos/logo.png");
+        background-size: cover;
+    }
+    
+    .fond {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        background-color: blue;
+    }
+    
+    #spectacle {
+        height: 100vh;
+        background-color: yellow;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .herbeshautes {
+        background-image: url("photos/AfficheHB.jpeg");
+        height: 150px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 400px;
+    }
+    
+    .equarissage {
+        background-image: url("photos/AfficheEquarissage.jpeg");
+        height: 150px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 400px;
+    }
+    
+    .partie {
+        background-image: url("photos/Affiche2Partie.jpeg");
+        height: 150px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 400px;
+    }
+    
+    .box {
+        border: 2px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .biere {
+        background-image: url("photos/Biere.jpeg");
+        height: 150px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 29%;
+    }
+    
+    .boris {
+        background-image: url("photos/Boris.jpeg");
+        height: 150px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 29%;
+    }
+    
+    .guillaume {
+        background-image: url("photos/Guillaume.jpeg");
+        height: 150px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 29%;
+    }
+    
+    .julien {
+        background-image: url("photos/Julien.jpeg");
+        height: 150px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 29%;
+    }
+    
+    .juliette {
+        background-image: url("photos/Juliette.jpeg");
+        height: 150px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 29%;
+    }
+    
+    .mathilde {
+        background-image: url("photos/Mathilde.png");
+        height: 150px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 29%;
+    }
+    
+    .pauline {
+        background-image: url("photos/Pauline.jpeg");
+        height: 150px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 29%;
+    }
+    
+    .pierre {
+        background-image: url("photos/Pierre.jpeg");
+        height: 150px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 29%;
+    }
+    
+    .sebastien {
+        background-image: url("photos/Sebastien.jpeg");
+        height: 150px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 29%;
+    }
+    
+    .sophie {
+        background-image: url("photos/Sophie.jpeg");
+        height: 150px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 29%;
+    }
+    
+    .texte {
+        width: 70%;
+        height: 80%;
+        overflow: scroll;
+    }
+    
+    .prochain {
+        height: 90vh;
+        width: 90vw;
+        border: 2px solid black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .afficheSpectacle {
+        height: 70%;
+        width: 70%;
+        background-image: url("photos/Affiche2Corée.jpeg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .titre {
+        font-size: 50px;
+    }
