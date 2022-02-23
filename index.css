@@ -15,6 +15,13 @@
         line-height: 300px;
     }
     
+    .contact {
+        position: absolute;
+        bottom: 0px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
     @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
     .navbar {
         height: 10vh;
